@@ -1,0 +1,14 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: worker
+  namespace: instavote
+spec:
+  template:
+    metadata:
+      labels:
+        app: worker            
+    spec:
+      containers:
+      - image: schoolofdevops/worker:latest
+        name: worker
