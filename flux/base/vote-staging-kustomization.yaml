@@ -8,7 +8,7 @@ spec:
         #  dependsOn:
         #  - name: redis-dev
   interval: 1h
-  path: ./deploy/vote/staging
+  path: ./kustomize/vote/staging
   prune: true
   sourceRef:
     kind: GitRepository

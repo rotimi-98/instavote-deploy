@@ -12,5 +12,5 @@ spec:
   secretRef:
     name: github-instavote      
   timeout: 20s
-  url: https://github.com/rotimi-98/instavote.git
+  url: https://github.com/rotimi-98/instavote-deploy.git
 
