@@ -8,7 +8,7 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: nginx
 spec:
-  rule:
+  rules:
   - host: vote.example.com
     http:
       paths:
