@@ -3,3 +3,4 @@ kind: Kustomization
 resources:
 - vote_deployment.yaml
 - vote_services.yaml
+- ingress.yaml
