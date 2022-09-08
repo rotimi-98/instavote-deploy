@@ -4,10 +4,9 @@ resources:
 - ../base
 patchesStrategicMerge:
 - vote_staging_deployment.yaml
-- vote_services.yaml
 replicas:
 - name: vote
-  count: 4 
+  count: 0 
 images:
 - name: schoolofdevops/vote:v3
   newTag: v8
