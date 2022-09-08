@@ -2,7 +2,7 @@ apiVersion: flagger.app/v1beta1
 kind: Canary
 metadata:
   name: vote
-  #  namespace: instavote
+  namespace: instavote
 spec:
   analysis:
     interval: 30s
