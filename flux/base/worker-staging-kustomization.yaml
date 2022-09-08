@@ -12,7 +12,7 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: instavote
+    name: instavote-deploy
   targetNamespace: instavote
   healthChecks:
     - apiVersion: apps/v1
