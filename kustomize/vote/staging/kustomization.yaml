@@ -4,6 +4,7 @@ resources:
 - ../base
 patchesStrategicMerge:
 - vote_staging_deployment.yaml
+- canary.yaml
 replicas:
 - name: vote
   count: 0 

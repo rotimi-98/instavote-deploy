@@ -4,3 +4,4 @@ resources:
 - vote_deployment.yaml
 - hpa.yaml
 - ingress.yaml
+- canary.yaml
