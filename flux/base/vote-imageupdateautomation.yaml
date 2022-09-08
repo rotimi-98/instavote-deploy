@@ -19,7 +19,7 @@ spec:
   interval: 1m0s
   sourceRef:
     kind: GitRepository
-    name: instavote
+    name: instavote-deploy
   update:
     path: ./kustomize/vote/staging
     strategy: Setters
